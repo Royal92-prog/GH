@@ -105,7 +105,7 @@ class _MyCustomFormState extends State<MyCustomForm> {
               //if (!res)print("errr");
               if (_user != null) { //transferring correctly
 
-              Navigator.pop(context, _user);
+              Navigator.pop(context, email.text.trim());
               }
 
               else {
